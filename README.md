@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+Answer: The biggest difference is that `.map` returns NEW array from the original array but `.forEach` modifies the original array.
+
 2. What is the difference between a function and a method?
+
+Answer: The difference depends on where it's used, when you use function within an object, it's called a method but when a function is not used in the context of object, it's just a function. 
 
 3. What is closure?
 
+Answer: Closure defines when a function is created and what that function has access to. As soon as a function is created, it has an access to the global scope and if a function is created within another function, that inner function has an access to the variables of within the outer (above) function. But any variable defined with in the scope of the function (lexical/private), the outside world doesn't have access to that variable. 
+
 4. Describe the four rules of the 'this' keyword.
 
+Answer: 'this' has four rules that change according to the placement of 'this' in the code. The first rule is called Global object binding and it refers to when you simply console log 'this' by itself. This rule will show everything under the window scope. The second rule is called Implicit Binding and the idea is that whenever you call a function, there will be a dot before the name of the function, whatever to the left of the dot, that's what 'this' is referring to. The third rule is called New binding and it's talking about the new instance of an object, when that new instance is created, 'this' refers to that instance. The fourth rule is called Explicit binding and this is used when you want to override what a constructor is set to.
+
 5. Why do we need super() in an extended class?
+
+Answer: super() is a keyword that's used to call a parent constructor and access functions instead of using 'call' to extend a parent object.   
 
 ## Project Set up
 
