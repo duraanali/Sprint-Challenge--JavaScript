@@ -105,7 +105,7 @@ const uni = graduates.filter(function (item) {
 });
 
 console.log(uni.length);
-
+console.log(uni);
 
 // ==== ADVANCED Array Methods ====
 
